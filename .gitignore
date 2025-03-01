@@ -1,0 +1,66 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.egg-info/
+pip-wheel-metadata/
+pip-log.txt
+
+# ---- Logs and Temp Files ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---- LaTeX Build Files ----
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.lof
+*.lot
+*.toc
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# ---- Test and Coverage ----
+tests/__pycache__/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE & Editor Files ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Example & Generated Files ----
+/examples/*.pdf
+/examples/*.aux
+/examples/*.log
+/examples/*.out
+/examples/*.synctex.gz
+/examples/*.fdb_latexmk
+/examples/*.fls
+
+# ---- Build & Output ----
+/build/
+/dist/
+/__pycache__/
+
+# ---- Dependency Management ----
+/site-packages/
